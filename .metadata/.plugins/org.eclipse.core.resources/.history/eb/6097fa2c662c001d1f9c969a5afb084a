@@ -1,0 +1,15 @@
+package String;
+
+public class Reverse3 {
+
+	public static void main(String[] args) {
+		String str = "Mani01";
+		StringBuilder sb = new StringBuilder(str);
+//		sb.append(str);
+		StringBuilder rev = sb.reverse();
+		System.out.println(rev);
+		
+
+	}
+
+}
